@@ -91,6 +91,55 @@ footer {
     color: #fff;
     margin-top: 20px;
 }
+/* Media Query for Mobile Devices */
+@media (max-width: 960px) {
+    /* Adjust body padding */
+    body {
+        padding: 0 1rem;
+    }
+
+    /* Header adjustments */
+    header img {
+        max-width: 50%; /* Larger image size for smaller screens */
+    }
+
+    header h1 {
+        font-size: 1.2rem; /* Reduced font size */
+    }
+
+    /* Main Heading adjustments */
+    h1 {
+        font-size: 1.5rem; /* Reduced size */
+        padding: 0.75rem; /* Reduced padding */
+    }
+
+    /* Content adjustments */
+    .content {
+        padding: 1rem; /* Reduced padding */
+        max-width: 100%; /* Full-width */
+    }
+
+    .content img {
+        width: 100%; /* Ensure images are responsive */
+    }
+
+    /* Navigation adjustments */
+    nav {
+        padding: 0.5rem 0;
+    }
+
+    nav a {
+        padding: 0.5rem; /* Smaller padding for mobile */
+        font-size: 0.9rem; /* Reduced font size */
+        display: block; /* Stack links vertically */
+        margin: 0.2rem 0;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 1rem; /* Slightly larger padding */
+    }
+}
 
 
        
